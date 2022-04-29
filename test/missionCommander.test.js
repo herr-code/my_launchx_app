@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 	Comando para ejecutar la prueba
 
 	npm test  test/missionCommander.test.js
@@ -24,16 +24,16 @@ describe("Esto es una suite de pruebas", () => {
 
 describe("Unit Tests for Mission Commander Class", () => {
   test('1) Create a mission commander objet', () => {
-  	const myMissionCommander = new MissionCommander("Woopa")
+    const myMissionCommander = new MissionCommander("Woopa")
 
-	 	// Este caso pasa
-  	expect(myMissionCommander.name).toBe("Woopa");
+    // Este caso pasa
+    expect(myMissionCommander.name).toBe("Woopa");
   });
 
   test('1) Create a mission commander objet', () => {
-  	const myMissionCommander = new MissionCommander("Woopa")
+    const myMissionCommander = new MissionCommander("Woopa")
 
-	 	// Este caso debe fallar
-  	expect(myMissionCommander.name).toBe("Wooper");
+    // Este caso debe fallar
+    expect(myMissionCommander.name).toBe("Wooper");
   });
 });
