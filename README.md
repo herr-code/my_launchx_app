@@ -1,4 +1,4 @@
-# my_launchx_app
+
 
 # ⭐️ 1. Creación de Proyectos en JS
 
@@ -28,7 +28,7 @@ Veamos a continuación como crear un proyecto de js con todas estas característ
 
 > Realizamos este procedimiento para agregar una nueva dependencia a nuestro proyecto. En este ejemplo agregamos JEST, un framework de testing que nos ayudará a crear nuestras pruebas de unidad. Revisa la documentación de Jest: https://jestjs.io/
 
-# III Creación de una clase y modularización 
+# III Creación de una clase y modularización
 
 > Diseña una clase y realiza una prueba de unidad de la creación de un objeto de esta clase.
 4. Crea dos directorios llamados `app` y `test`. 
